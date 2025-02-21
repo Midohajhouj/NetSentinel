@@ -38,7 +38,7 @@ pip install pyshark colorama
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/NetDefender.git
+   git clone https://github.com/Midohajhouj/NetDefender.git
    cd NetDefender
    ```
 
@@ -52,6 +52,15 @@ pip install pyshark colorama
    sudo apt install tshark  # For Debian-based systems
    ```
 
+4. final
+
+ ```bash
+  chmod +x install.sh
+
+./install.sh
+
+   ```
+
 ---
 
 ## 🖥️ Usage
@@ -59,12 +68,12 @@ pip install pyshark colorama
 Run the script with the required network interface:
 
 ```bash
-python netdefender.py -i <network-interface>
+netdef -i <network-interface>
 ```
 
 Example:
 ```bash
-python netdefender.py -i eth0
+netdef -i eth0
 ```
 
 ### Command-line Options
