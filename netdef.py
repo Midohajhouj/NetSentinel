@@ -15,7 +15,7 @@ from datetime import datetime
 init(autoreset=True)
 
 # Configure logging
-logging.basicConfig(filename="netdefl.log", level=logging.INFO,
+logging.basicConfig(filename="netdef.log", level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Global variables
