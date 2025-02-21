@@ -1,7 +1,7 @@
 
-# 🛡️ NetSentinel
+# 🛡️ NetDefender
 
-NetSentinel is a powerful network security monitoring tool designed to detect and mitigate common threats like SYN floods, port scans, and brute-force attacks in real-time. With features like intelligent packet analysis and automated IP blocking, NetSentinel is your first line of defense against network intrusions.
+NetDefender is a powerful network security monitoring tool designed to detect and mitigate common threats like SYN floods, port scans, and brute-force attacks in real-time. With features like intelligent packet analysis and automated IP blocking, NetDefender is your first line of defense against network intrusions.
 
 ---
 
@@ -38,8 +38,8 @@ pip install pyshark colorama
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/NetSentinel.git
-   cd NetSentinel
+   git clone https://github.com/your-username/NetDefender.git
+   cd NetDefender
    ```
 
 2. Install dependencies:
@@ -59,12 +59,12 @@ pip install pyshark colorama
 Run the script with the required network interface:
 
 ```bash
-python netsentinel.py -i <network-interface>
+python netdefender.py -i <network-interface>
 ```
 
 Example:
 ```bash
-python netsentinel.py -i eth0
+python netdefender.py -i eth0
 ```
 
 ### Command-line Options
@@ -74,7 +74,7 @@ python netsentinel.py -i eth0
 
 ## 📝 Logging
 
-NetSentinel logs all detected threats and actions to `netsentinel.log` in the current directory. This includes detailed information about potential attacks and blocked IPs.
+NetDefender logs all detected threats and actions to `netdefender.log` in the current directory. This includes detailed information about potential attacks and blocked IPs.
 
 ---
 
@@ -88,7 +88,7 @@ NetSentinel logs all detected threats and actions to `netsentinel.log` in the cu
 ## 🛡️ Example Output
 
 ```plaintext
-[INFO] Starting NetSentinel on interface eth0...
+[INFO] Starting NetDefender on interface eth0...
 [WARNING] Potential SYN flood detected from 192.168.1.101: 192.168.1.101 -> 192.168.1.102 [TCP]
 [CRITICAL] Blocking IP address 192.168.1.101 for 60 seconds...
 [INFO] Unblocked IP address 192.168.1.101
@@ -104,7 +104,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve NetSentinel.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve NetDefender.
 
 ---
 
